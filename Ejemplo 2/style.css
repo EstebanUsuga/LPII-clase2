@@ -1,0 +1,49 @@
+.pequeno{
+    background-color: black;
+    width: 180px;
+    height: 200px;
+}
+
+#primer-h1{
+    color: white;
+}
+
+p{
+    color:black;
+    font-size: 25px;
+} 
+
+html{
+    font-size: 16px;
+}
+
+#div-ejemplo{
+    position: relative;
+    margin-top: 30px;
+    border: 5px solid orange;
+    width: 50vw;
+    font-size: 50px;
+    padding: 20px;
+}
+
+
+#div-ejemplo div {
+    font-size: 5em; /*     5*16= 80px     */
+}
+
+
+/*Se implementa el width con porcentajes. Es relativo, dependiendo de donde esta contenido*/
+#blue {
+    background-color: blue;
+    width: 10%;
+}
+
+#green {
+    background-color: green;
+    width: 30%;
+}
+
+#red {
+    background-color: red;
+    width: 60%;
+}
