@@ -1,0 +1,27 @@
+.contenedor-modal{
+
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 1rem;
+    border: 2px solid rgb(145, 145, 145);
+    flex-direction: column;
+    gap: 3rem;
+    width: 50%;
+    height: 50%;
+
+}
